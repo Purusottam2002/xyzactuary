@@ -31,3 +31,8 @@ class LinearRegression:
         if isinstance(x_values, (int, float)):
             return self.alpha + self.beta * x_values
         return [self.alpha + self.beta * x for x in x_values]
+
+    def __str__(self):
+        if not self.fitted:
+            return "LinearRegression Model (unfitted)"
+        return f"LinearRegression Model: y = {self.beta:.5f}x + {self.alpha:.5f}"

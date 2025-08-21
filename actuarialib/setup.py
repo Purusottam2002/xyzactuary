@@ -2,9 +2,9 @@ from setuptools import setup, find_packages
 
 setup(
     name='actuarialib',
-    version='0.1.0',
+    version='0.1.1',
     description='Actuarial Specific Library(actuarial toolkit)',
-    author='Purusottam Prasad',
+    author='Purusottam',
     packages=find_packages(),
     install_requires=[],
     classifiers=[

@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: actuarialib
+Version: 0.1.1
+Summary: An actuarial library.
+Author: Purusottam
+License: MIT
+Keywords: actuarial,linear regression,MLR,statistics
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file
